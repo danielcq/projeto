@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Wari</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+
+	<link href="css/easy-responsive-tabs.css" rel='stylesheet' type='text/css'/>
+
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
+
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+	<link id="favicon" href="images/image.png" rel="icon" type="image/x-icon">
+
+	<style type="text/css">
+		.menu-fixo{
+			background: #000;
+		}
+	</style>
+	
+</head>
+
+<body>
+
+<div class=" banner">
+	<div class="wthree-different-dot">
+	
+		<div class="header">
+			<div class="container">  
+				<div class="header-nav">	
+					<nav class="navbar navbar-default">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button> 
+						</div>
+
+
+						
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-fixed-top conteudo">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="usuario.php" data-hover="Cadastre-se">Cadastre-se</a></li>
+								<li><a href="#" data-toggle="modal" data-target="#myModalcad">Fazer Login</a></li>
+								<li><a href="exibirimagens.php" data-hover="Eventos">Eventos</a></li>
+								
+								
+								<li><a href="#contact" class="scroll">Contato</a></li>
+							</ul>  
+							<div class="clearfix"> </div>
+
+						</div>
+					</nav> 
+
+				</div>	
+			</div>	
+
+		</div>	
+
+		
+		<div class="banner-top">
+			<div class="slider">
+				<div class="callbacks_container">
+					<ul class="rslides callbacks callbacks1" id="slider4">
+						<li>	
+						<div class="wthree-different-dot">
+							<div class="banner_text">
+							<div class="container">
+								<h2>Eventos</h2>
+							
+								<div class="thim-click-to-bottom">
+									<a href="#about" class="scroll">
+										<i class="fa  fa-long-arrow-down"></i>
+									</a>
+								</div>
+							</div>
+							</div>
+						</div>
+						</li>
+						<li>
+						<div class="wthree-different-dot">	
+							<div class="banner_text">
+							<div class="container">
+								<h3>Festas</h3>
+						
+								<div class="thim-click-to-bottom">
+									<a href="#about" class="scroll">
+										<i class="fa  fa-long-arrow-down"></i>
+									</a>
+								</div>
+							</div>
+							</div>
+							</div>
+						</li>
+						<li>	
+						<div class="wthree-different-dot">
+							<div class="banner_text">
+							<div class="container">
+								<h3>Shows</h3>
+								
+								<div class="thim-click-to-bottom">
+									<a href="#about" class="scroll">
+										<i class="fa  fa-long-arrow-down"></i>
+									</a>
+								</div>
+							</div>
+							</div>
+							</div>
+						</li>
+						<li>	
+						<div class="wthree-different-dot">
+							<div class="banner_text">
+							<div class="container">
+								<h3>Bares</h3>
+								
+								<div class="thim-click-to-bottom">
+									<a href="#about" class="scroll">
+										<i class="fa  fa-long-arrow-down"></i>
+									</a>
+								</div>
+							</div>
+							</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		
+	</div>
+</div>
+
+<div class="modal fade" id="myModalcad" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center" id="myModalLabel">Login</h4>
+                </div>
+                <div class="modal-body">
+                    <form method="post" action="login.php" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="recipient-name" class="control-label">Nome:</label>
+                            <input name="nome" type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="text" class="control-label">Senha:</label>
+                            <input name="senha" type="password" class="form-control">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary">Logar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div><br><br>
+
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+	<div class="modal-dialog">
+		
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4>Eventos</h4>
+				<img src="images/b2.jpg" alt=" " class="img-responsive">
+				<h5>Eventos</h5>
+				
+			</div>
+		</div>
+		
+	</div>
+</div>
+
+
+		<div class="clearfix"></div>
+		
+		
+
+</section>
+
+<section class="popular_classes" id="classes">
+	<div class="container">
+		<h3 class="heading"><span>Eventos</span></h3>
+		<div class="classes_grids">
+			<div class="col-md-4">
+			<div class="classes_grid1">
+				<img src="images/b2.jpg" alt="popular cakes" />
+				<h3>Festas</h3>
+				<p>Vestibulum volutpat faucibus semper int Proin ultricies vestibulum velit.</p>
+			</div>
+			</div>
+			<div class="col-md-4">
+			<div class="classes_grid1">
+				<img src="images/festa2.jpg" alt="popular cakes" />
+				<h3>Bares</h3>
+				<p>Vestibulum volutpat faucibus semper int Proin ultricies vestibulum velit.</p>
+			</div>
+			</div>
+			
+			<div class="clearfix"></div>
+			<div class="classes_bottom_grids">
+				<div class="col-md-4">
+				<div class="classes_grid1">
+					<img src="images/show.jpg" alt="popular cakes" />
+					<h3>Show</h3>
+					<p>Vestibulum volutpat faucibus semper int Proin ultricies vestibulum velit.</p>
+				</div>
+				</div>
+				<div class="col-md-4">
+				<div class="classes_grid1">
+					<img src="images/b2.jpg" alt="popular cakes" />
+					<h3>Boates</h3>
+					<p>Vestibulum volutpat faucibus semper int Proin ultricies vestibulum velit.</p>
+				</div>
+				</div>
+		
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div> 
+</section>
+
+<section class="stats" id="stats">
+	<div class="wthree-different-dot1">
+		<div class="container">
+			<h3 class="heading">Nossa experiência</h3>
+			<div class="agileits_stats_grids">
+				<div class="col-md-3 col-xs-4 agileinfo_stats">
+					<div class="agileinfo_stats_grid">
+						<p class="counter">550</p>
+						<h3>Eventos Realizados</h3>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-4 agileinfo_stats mid-w3l-stat">
+					<div class="agileinfo_stats_grid">
+						<p class="counter">1000</p>
+						<h3>Visualizações</h3>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-4 agileinfo_stats mid-w3l-stat">
+					<div class="agileinfo_stats_grid">
+						<p class="counter">1000</p>
+						<h3>Cadastros</h3>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-4 agileinfo_stats mid-w3l-stat">
+					<div class="agileinfo_stats_grid">
+						<p class="counter">200</p>
+						<h3>Participantes</h3>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<div id="popup">
+	<div id="small-dialog" class="mfp-hide">
+		<div class="signin-form profile">
+			<h3>Sign Up</h3>
+			<div class="login-form">
+				<form action="#" method="post">
+					<input type="text" name="name" placeholder="Username" required="">
+					<input type="email" name="email" placeholder="E-mail" required="">
+					<input type="password" name="password" placeholder="Password" required="">
+					<input type="password" name="password" placeholder="Confirm Password" required="">
+					<input type="submit" value="Sign Up">
+				</form>
+			</div>
+		</div>
+	</div>
+</div>						
+
+		<div class="contact_wthreerow agileits-w3layouts">
+		
+			<div class="col-md-7 w3l_contact_form">
+				<h4>Contato</h4>
+				<form action="#" method="post">
+					<input type="text" name="Name" value="Nome" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}"
+						required="">
+					<input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}"
+						required="">
+					<input type="text" name="Phone" value="Telefone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone';}"
+						required="">
+					<textarea name="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
+					<input type="submit" value="Enviar">
+				</form>
+			</div>
+			<div class="col-md-5 agileits_w3layouts_contact_gridl">
+				<div class="agileits_mail_grid_right_grid">
+					<h4>Contato</h4>
+				
+					<ul class="contact_info">
+						<li><span class="fa fa-map-marker" aria-hidden="true"></span>Endereço: Rua, Juiz de Fora</li>
+						<li><span class="fa fa-envelope" aria-hidden="true"></span><a href="mailto:info@example.com">email@email.com</a></li>
+						<li><span class="fa fa-phone" aria-hidden="true"></span>(32) 8888-8888</li>
+						<li><span class="fa fa-globe" aria-hidden="true"></span><a href="#">info@website.com</a></li><br>
+					</ul>
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</section>
+
+<section class="footer">
+	<div class="container">
+		<div class="agileinfo-grids">
+			<div class="agile-grid-left agile-grid-right">
+				<h4>Wari</h4>
+				<div class="social">
+					<ul>
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="#"><i class="fa fa-rss"></i></a></li>
+						<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+						<li><a href="#"><i class="fa fa-vk"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="agile-nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#about" class="scroll">Sobre</a></li>				
+				<li><a href="#contact" class="scroll">Contato</a></li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+<div class="copyright">
+	<div class="container">
+		<p>© 2018 wari. All Rights Reserved<a href="http://w3layouts.com/"></a> </p>
+	</div>
+</div>
+
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type='text/javascript'>
+	jQuery("document").ready(function($){
+		var nav = $('.conteudo');
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 570) {
+				nav.addClass("menu-fixo");
+			} else {
+				nav.removeClass("menu-fixo");
+			}
+		});
+	});
+	</script>
+	
+	<script src="js/easy-responsive-tabs.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('#horizontalTab').easyResponsiveTabs({
+			type: 'default',            
+			width: 'auto', 
+			fit: true,   
+			closed: 'accordion', 
+			activate: function(event) { 
+			var $tab = $(this);
+			var $info = $('#tabInfo');
+			var $name = $('span', $info);
+			$name.text($tab.text());
+			$info.show();
+			}
+			});
+			$('#verticalTab').easyResponsiveTabs({
+			type: 'vertical',
+			width: 'auto',
+			fit: true
+			});
+		});
+	</script>
+	
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+	</script> 
+	
+	<script src="js/responsiveslides.min.js"></script>
+	<script>
+		
+		$(function () {
+		  
+		  $("#slider4").responsiveSlides({
+			auto: true,
+			pager:true,
+			nav:true,
+			speed: 500,
+			namespace: "callbacks",
+			before: function () {
+			  $('.events').append("<li>before event fired.</li>");
+			},
+			after: function () {
+			  $('.events').append("<li>after event fired.</li>");
+			}
+		  });
+	
+		});
+	 </script>
+	
+	<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+		<script>
+			$(document).ready(function() {
+				$('.popup-with-zoom-anim').magnificPopup({
+					type: 'inline',
+					fixedContentPos: false,
+					fixedBgPos: true,
+					overflowY: 'auto',
+					closeBtnInside: true,
+					preloader: false,
+					midClick: true,
+					removalDelay: 300,
+					mainClass: 'my-mfp-zoom-in'
+			});
+																							
+		});
+		</script>
+	
+	<script src="js/waypoints.min.js"></script> 
+	<script src="js/counterup.min.js"></script> 
+	<script>
+		jQuery(document).ready(function( $ ) {
+			$('.counter').counterUp({
+				delay: 10,
+				time: 1000 
+			});
+		});
+	</script>
+	
+	<script defer src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript">
+		$(window).load(function(){
+		  $('.flexslider').flexslider({
+			animation: "slide",
+			start: function(slider){
+			  $('body').removeClass('loading');
+			}
+		  });
+		});
+	</script>
+	
+	<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+			
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+	
+	
+</body>
+
+</html>
