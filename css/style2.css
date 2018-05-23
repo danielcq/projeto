@@ -15,6 +15,8 @@ body{
 
         }
 
+        .container img { max-width: 300px; }
+
         .modal.and.carousel {
             position: fixed; // Needed because the carousel overrides the position property
         }

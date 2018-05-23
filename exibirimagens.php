@@ -31,6 +31,7 @@ $resultado1 = mysqli_query($conn1,$sql1);
     <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
 
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/style2.css" type="text/css" media="all">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
     <link rel="stylesheet" href="css/font-awesome.min.css" />
     
@@ -53,7 +54,7 @@ $resultado1 = mysqli_query($conn1,$sql1);
         <br><br><h1 style="text-align:center;">Exibir Eventos</h1><br><br>
 
 
-
+<div class="container">
 <table border="0">
     <tbody>
     <?php while($exibe = mysqli_fetch_assoc($resultado1)) { ?>
@@ -71,6 +72,7 @@ $resultado1 = mysqli_query($conn1,$sql1);
     <?php } ?>
 
 </table><br><br>
+</div>
 
 <form action="index.html">
     <button class="btn btn-primary">Voltar</button>

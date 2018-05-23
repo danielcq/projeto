@@ -30,8 +30,10 @@ alert('Cadastro alterado com sucesso!');
     <script src="js/jquery-1.7.2.min.js"></script>
 
     <link href="css/lightbox.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/style2.css" type="text/css" media="all">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/style2.css" type="text/css" media="all">
+
+   
     <link id="favicon" href="images/image.png" rel="icon" type="image/x-icon">
 
     <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
@@ -44,7 +46,6 @@ alert('Cadastro alterado com sucesso!');
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
-<style></style>
 <body>
 
 <h1 style="text-align:center;">Exibir Eventos</h1>
@@ -62,10 +63,10 @@ alert('Cadastro alterado com sucesso!');
             <li data-target="#meuSlider" data-slide-to="3"></li>
         </ol>
         <div class="carousel-inner">
-            <div href="#lightbox" data-toggle="modal" class="item active"><img src="<?php echo $exibe['imagem1']; ?>"  alt="Slider 1" style="margin:0 auto;"/></div>
-            <div href="#lightbox" data-toggle="modal" class="item"><img src="<?php echo $exibe['imagem2']; ?>" alt="Slide 2" style="margin:0 auto;" /></div>
-            <div href="#lightbox" data-toggle="modal" class="item"><img src="<?php echo $exibe['imagem3']; ?>" alt="Slide 3" style="margin:0 auto;"/></div>
-            <div href="#lightbox" data-toggle="modal" class="item"><img src="<?php echo $exibe['imagem4']; ?>" alt="Slide 4" style="margin:0 auto;" /></div>
+            <div href="#lightbox" data-toggle="modal" class="item active"><img src="<?php echo $exibe['imagem1']; ?>"  alt="Slider 1" style= "margin-left:450px; width:400px; height:500px;"/></div>
+            <div href="#lightbox" data-toggle="modal" class="item"><img src="<?php echo $exibe['imagem2']; ?>" alt="Slide 2" style= "margin-left:450px; width:400px; height:500px;" /></div>
+            <div href="#lightbox" data-toggle="modal" class="item"><img src="<?php echo $exibe['imagem3']; ?>" alt="Slide 3" style= "margin-left:450px; width:400px; height:500px;/"></div>
+            <div href="#lightbox" data-toggle="modal" class="item"><img src="<?php echo $exibe['imagem4']; ?>" alt="Slide 4" style= "margin-left:450px; width:400px; height:500px;"/></div>
         </div>
         <a class="left carousel-control" href="#meuSlider" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
         <a class="right carousel-control" href="#meuSlider" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
