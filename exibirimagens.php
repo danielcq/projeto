@@ -8,14 +8,20 @@ header("Content-Type: text/html; charset=ISO-8859-1",true);
 
 
 @$id = $_GET['id'];
-$sql = "SELECT * from cadastro";
+$buscar_nome =isset($_POST['buscar_nome'])?$_POST['buscar_nome']:'';
+$sql = "SELECT * from cadastro where nome like '%$buscar_nome%'";
+
 
 $resultado = mysqli_query($conn1,$sql);
 
-$sql1 = "SELECT * FROM cadastro";
+$buscar_nome = isset($_POST['buscar_nome'])?$_POST['buscar_nome']:'';
+$sql1 = "SELECT * FROM cadastro where nome like '%$buscar_nome%'";
 
 
 $resultado1 = mysqli_query($conn1,$sql1);
+
+
+
 
 ?>
 
@@ -52,6 +58,13 @@ $resultado1 = mysqli_query($conn1,$sql1);
 
 
         <br><br><h1 style="text-align:center;">Exibir Eventos</h1><br><br>
+
+<div align="center" id="busca">
+<form action "" enctype="multipart/form-data name="busca" method= "post">
+    <input type="text" name="buscar_nome" />
+    <input type="submit" name="enviar" value="Procurar"/>
+</form> 
+</div><br><br>
 
 
 <div class="container">
